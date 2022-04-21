@@ -4,6 +4,7 @@ spring:
     password: Welcome+123
     username: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+    initialize-mode: always
 
   jpa:
     hibernate:
