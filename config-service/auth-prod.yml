@@ -8,13 +8,13 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update 
+      ddl-auto: update
       naming:
         physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
     show-sql: true
     format-sql: true
 logging:
-	level:
-		org:
-			hibernate:
-				type: trace
+  level:
+    org:
+      hibernate:
+        type: trace
