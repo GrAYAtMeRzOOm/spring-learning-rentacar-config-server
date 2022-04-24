@@ -15,3 +15,11 @@ spring:
         physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
     show-sql: true
     format-sql: true
+security:
+  oauth2:
+    resource:
+      token=info=url: http://localhost:9191/oauth/token
+      client:
+        client-id: mobile
+        client-secret: pin
+        
