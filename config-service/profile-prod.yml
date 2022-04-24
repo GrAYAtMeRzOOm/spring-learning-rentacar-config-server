@@ -22,4 +22,8 @@ security:
       client:
         client-id: mobile
         client-secret: pin
-        
+logging:
+  level:
+    org:
+      hibernate:
+        type: trace
